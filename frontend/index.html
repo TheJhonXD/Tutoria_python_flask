@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebBook</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="name">
+            <i class='bx bx-book'></i> <span>WebBook</span>
+        </div>
+        <nav>
+            <ul>
+                <li>Ingresar</li>
+                <li>Retirar</li>
+                <li>Consultar</li>
+                <li>Actualizar</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- <div class="titulo">Dashboard</div> -->
+        <section class="ingresar">
+            <div class="section-title">Ingresar libro</div>
+            <input type="text" placeholder="Nombre libro" id="new_name">
+            <input type="text" placeholder="Autor" id="new_author">
+            <!-- <input type="text" placeholder="Editorial"> -->
+            <input type="text" placeholder="Año" id="new_year">
+
+            <div class="btn"><button id="btn-ingresar">Aceptar</button></div>
+        </section>
+        <section class="retirar">
+            <div class="section-title">Retirar libro</div>
+            <input type="text" placeholder="Nombre libro" id="libro-retirar">
+            <div class="btn"><button id="btn-retirar">Aceptar</button></div>
+        </section>
+        <section class="consultar">
+            <div class="section-title">Buscar libro</div>
+            <input type="search" placeholder="Nombre libro" id="libro-buscado">
+            <div class="btn"><button id="btn-buscar">Aceptar</button></div>
+        </section>
+        <section class="actualizar">
+            <div class="section-title">Actualizar datos del libro</div>
+            <input type="text" placeholder="Libro buscado" id="book-name">
+            <input type="text" placeholder="Nombre libro" id="update-name">
+            <input type="text" placeholder="Autor" id="update-author">
+            <!-- <input type="text" placeholder="Editorial"> -->
+            <input type="text" placeholder="Año" id="update-year">
+
+            <div class="btn"><button id="btn-actualizar">Aceptar</button></div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

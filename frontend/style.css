@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f2f2f2;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+header {
+    width: 100%;
+    background: #845EC2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+header .name{
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 1rem;
+    display: flex;
+    gap: 5px;
+    background: #111;
+}
+
+header .name i{
+    font-size: 2rem;
+}
+
+header nav ul {
+    height: 100%;
+    list-style: none;
+    font-size: 1rem;
+    color: #fff;
+    display: flex;
+    gap: 5px;
+    margin-right: 5px;
+}
+
+header ul li {
+    padding: 10px 15px;
+    border-radius: 3px;
+    transition: background 0.3s ease-in-out;
+    -webkit-transition: background 0.3s ease-in-out;
+    -moz-transition: background 0.3s ease-in-out;
+    -ms-transition: background 0.3s ease-in-out;
+    -o-transition: background 0.3s ease-in-out;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+header ul li:hover{
+    background: #fff;
+    color: #845EC2;
+    cursor: pointer;
+}
+
+/* FORMS */
+main {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+main section {
+    width: 98%;
+    max-width: 800px;
+    margin: auto;
+    padding: 15px 15px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background: #fff;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+    margin-bottom: 15px;
+}
+
+main section .section-title {
+    /* font-size: 22px; */
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+main section input[type="text"], 
+main section input[type="search"]{
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    background: #fafafa;
+    color: #444;
+    outline: none;
+    border: 1px solid #B39CD0;
+    padding: 10px 10px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    margin-bottom: 5px;
+}
+
+main section .btn{
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+main section button {
+    width: 100%;
+    max-width: 150px;
+    padding: 10px 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.96rem;
+    font-weight: 400;
+    border: none;
+    outline: none;
+    background: #0F0F0F;
+    color: #fff;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+main section button:hover{
+    cursor: pointer;
+    background: #151515;
+}

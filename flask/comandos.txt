@@ -1,0 +1,12 @@
+Instalar entorno virtual
+pip install virtualenv
+
+Inicializar entorno virtual
+virtualenv -p python3 env
+
+Activar entorno virtual
+cd env/Scripts
+./activate
+
+Desactivar entorno virtual
+deactivate
